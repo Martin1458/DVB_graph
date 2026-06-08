@@ -1,0 +1,3070 @@
+{
+  "fetched_at": "2026-06-08T19:58:09Z",
+  "stations": {
+    "33000504": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000914": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000708": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000654": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000520": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000502": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000624": {
+      "avg_delay_min": 0.17,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000176": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000201": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000721": {
+      "avg_delay_min": 0.12,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000263": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000818": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000321": {
+      "avg_delay_min": 0.7,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000164": {
+      "avg_delay_min": 0.11,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000202": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000532": {
+      "avg_delay_min": 0.25,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000013": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000802": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000903": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000091": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000580": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000735": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000093": {
+      "avg_delay_min": 0.4,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000804": {
+      "avg_delay_min": 0.44,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000794": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000340": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000503": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000800": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000004": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000738": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000200": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000072": {
+      "avg_delay_min": 0.4,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000706": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000157": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000874": {
+      "avg_delay_min": 0.11,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000514": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000124": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000687": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000649": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000209": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000652": {
+      "avg_delay_min": 0.12,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000941": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000870": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000955": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000651": {
+      "avg_delay_min": 0.0,
+      "num_departures": 8,
+      "num_with_realtime": 2
+    },
+    "33000271": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000645": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000653": {
+      "avg_delay_min": 0.12,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000908": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000884": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000217": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000555": {
+      "avg_delay_min": 0.14,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000035": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000886": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000543": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000536": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000949": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000420": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000299": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000843": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000655": {
+      "avg_delay_min": 0.29,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000878": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000294": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000334": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000926": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000912": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000017": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000280": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000817": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000509": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000847": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000001": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000737": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000048": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000658": {
+      "avg_delay_min": 0.11,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000720": {
+      "avg_delay_min": 0.12,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000012": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000943": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000016": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000198": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000736": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000648": {
+      "avg_delay_min": 0.11,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000716": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000713": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000964": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000831": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000064": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000724": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000954": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000094": {
+      "avg_delay_min": 0.4,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000338": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000187": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000822": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000591": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000183": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000126": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000175": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000250": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000274": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000888": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000262": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000696": {
+      "avg_delay_min": 0.14,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000988": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000216": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000043": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000601": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000587": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000027": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000962": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000172": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000598": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000894": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000971": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000769": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000145": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000244": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000302": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000516": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000751": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000871": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000155": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000178": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000702": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000165": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000014": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000174": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000723": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000784": {
+      "avg_delay_min": 0.11,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000785": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000161": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000081": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000189": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000260": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000159": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000153": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000118": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000332": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000333": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000741": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000730": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000006": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000861": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000953": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000740": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000885": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000803": {
+      "avg_delay_min": 0.29,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000291": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000252": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000544": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000541": {
+      "avg_delay_min": 0.25,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000828": {
+      "avg_delay_min": 0.22,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000704": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000709": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000521": {
+      "avg_delay_min": 0.25,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000009": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000615": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000588": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000199": null,
+    "33000067": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000909": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000700": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000644": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000851": {
+      "avg_delay_min": 0.44,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000296": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000980": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000933": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000792": {
+      "avg_delay_min": 0.12,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000119": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000717": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000726": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000062": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000141": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000273": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000647": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000987": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000546": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000617": {
+      "avg_delay_min": 0.43,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000101": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000618": {
+      "avg_delay_min": 0.43,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000666": {
+      "avg_delay_min": 0.6,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000553": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000246": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000703": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000915": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000616": {
+      "avg_delay_min": 0.4,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000078": {
+      "avg_delay_min": 0.3,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000790": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000188": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000619": {
+      "avg_delay_min": 0.6,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000958": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000402": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000044": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000008": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000567": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000889": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000103": {
+      "avg_delay_min": 0.3,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000789": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000768": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000190": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000469": {
+      "avg_delay_min": 0.14,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000506": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000984": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000813": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000714": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000573": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000066": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000749": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000766": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000323": {
+      "avg_delay_min": 0.7,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000030": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000661": {
+      "avg_delay_min": 0.6,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000507": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000242": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000237": null,
+    "33000823": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000301": {
+      "avg_delay_min": 0.3,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000077": {
+      "avg_delay_min": 0.3,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000614": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000096": {
+      "avg_delay_min": 0.3,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000929": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000040": null,
+    "33000548": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000055": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000877": {
+      "avg_delay_min": 0.11,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000264": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000764": {
+      "avg_delay_min": 0.12,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000287": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000186": {
+      "avg_delay_min": 0.22,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000028": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000179": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000099": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000032": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000266": {
+      "avg_delay_min": 0.6,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000629": {
+      "avg_delay_min": 0.33,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000305": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000036": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000715": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000692": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000054": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000268": {
+      "avg_delay_min": 0.6,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000272": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000275": {
+      "avg_delay_min": 0.11,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000527": null,
+    "33000511": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000637": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000890": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000742": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000904": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000816": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000638": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000073": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000862": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000672": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000251": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000547": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000746": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000686": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000775": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000117": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000743": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000827": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000936": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000938": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000840": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000677": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000270": {
+      "avg_delay_min": 0.6,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000276": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000920": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000281": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000676": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000123": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000069": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000734": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000946": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000830": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000322": {
+      "avg_delay_min": 0.7,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000918": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000331": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000873": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000997": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000056": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000989": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000763": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000047": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000289": null,
+    "33000582": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000510": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000570": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000685": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000807": {
+      "avg_delay_min": 0.4,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000083": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000705": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000670": {
+      "avg_delay_min": 0.22,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33001025": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000277": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000940": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000809": {
+      "avg_delay_min": 0.4,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000642": {
+      "avg_delay_min": 0.11,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000893": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000288": null,
+    "33000956": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000663": null,
+    "33000336": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000213": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000981": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000744": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000806": {
+      "avg_delay_min": 0.4,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000147": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000610": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000966": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000810": {
+      "avg_delay_min": 0.4,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000623": {
+      "avg_delay_min": 0.17,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000021": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000197": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000846": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000162": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000181": {
+      "avg_delay_min": 0.3,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000795": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000621": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000578": null,
+    "33000895": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000710": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000049": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000924": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000832": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000075": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000872": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000053": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000076": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000061": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000798": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000774": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000279": {
+      "avg_delay_min": 0.9,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000983": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000090": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000646": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000605": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000050": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000754": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000892": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000811": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000111": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000191": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000074": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000082": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000965": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000085": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000883": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000935": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000505": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000261": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000243": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000739": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000122": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000796": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000844": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000088": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000604": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000140": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000797": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000590": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000241": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000634": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000184": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000820": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000787": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000146": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000545": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000022": null,
+    "33000968": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000595": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000551": {
+      "avg_delay_min": 0.14,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000531": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000335": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000522": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000523": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000100": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000535": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000917": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000526": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000755": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000761": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000205": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000697": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000732": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000063": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000297": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000875": {
+      "avg_delay_min": 0.11,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000116": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000269": {
+      "avg_delay_min": 0.6,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000134": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000752": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000928": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000314": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000150": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000628": {
+      "avg_delay_min": 0.33,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000712": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000932": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000805": {
+      "avg_delay_min": 0.4,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000902": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000916": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000019": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000925": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000901": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000815": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000597": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000142": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000829": {
+      "avg_delay_min": 0.22,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000937": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000132": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000292": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000501": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000203": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000845": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000421": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000177": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000120": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000896": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000572": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000041": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000173": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000018": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000211": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000594": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000887": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000880": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000046": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000005": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000882": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000773": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000298": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000627": {
+      "avg_delay_min": 0.25,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000554": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000719": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000135": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000718": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000065": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000003": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000037": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000791": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000051": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000952": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000089": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000324": {
+      "avg_delay_min": 0.12,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000210": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000290": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000113": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000611": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000664": {
+      "avg_delay_min": 0.6,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000860": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000881": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000950": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000939": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000245": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000745": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000513": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000131": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000086": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000963": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000927": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000087": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000207": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000585": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000635": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000833": {
+      "avg_delay_min": 0.22,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000641": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000515": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000848": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000859": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000092": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000729": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000011": {
+      "avg_delay_min": 0.3,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000854": {
+      "avg_delay_min": 0.29,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000600": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000636": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000313": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000247": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000707": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000907": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000662": {
+      "avg_delay_min": 0.6,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000098": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000593": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000166": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000622": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000212": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000919": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000025": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000267": {
+      "avg_delay_min": 0.6,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000757": {
+      "avg_delay_min": 0.11,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000010": {
+      "avg_delay_min": 0.3,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000163": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000711": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000640": {
+      "avg_delay_min": 0.11,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000596": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000665": {
+      "avg_delay_min": 0.6,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000599": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000841": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000214": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000960": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000826": {
+      "avg_delay_min": 0.22,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000052": {
+      "avg_delay_min": 0.3,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000537": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000819": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000542": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000701": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000337": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000538": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000725": {
+      "avg_delay_min": 0.12,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000517": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000023": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000300": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000678": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000026": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000957": {
+      "avg_delay_min": 0.25,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000171": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000584": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000911": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000905": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000951": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000948": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000824": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000583": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000512": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000080": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000786": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000728": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000667": {
+      "avg_delay_min": 0.6,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000876": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000625": {
+      "avg_delay_min": 0.17,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000834": {
+      "avg_delay_min": 0.22,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000265": {
+      "avg_delay_min": 0.6,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000656": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000007": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000097": {
+      "avg_delay_min": 0.3,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000767": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000068": {
+      "avg_delay_min": 0.7,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000944": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000311": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000898": {
+      "avg_delay_min": 0.0,
+      "num_departures": 2,
+      "num_with_realtime": 2
+    },
+    "33000693": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000897": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000218": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000733": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000133": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000772": {
+      "avg_delay_min": null,
+      "num_departures": 8,
+      "num_with_realtime": 0
+    },
+    "33000259": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000855": {
+      "avg_delay_min": 0.29,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000727": {
+      "avg_delay_min": 0.11,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000020": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000788": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000042": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000947": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 5
+    },
+    "33000934": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000961": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 2
+    },
+    "33000835": {
+      "avg_delay_min": 0.44,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000045": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000782": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000144": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000694": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000808": {
+      "avg_delay_min": 0.33,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000508": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000206": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000530": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000070": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000821": {
+      "avg_delay_min": 0.11,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000127": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000249": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000793": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000879": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000913": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000923": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000293": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000606": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000182": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000643": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000220": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000115": {
+      "avg_delay_min": 0.11,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000071": {
+      "avg_delay_min": 0.5,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000185": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000691": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000029": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000309": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000149": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000160": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000033": {
+      "avg_delay_min": null,
+      "num_departures": 6,
+      "num_with_realtime": 0
+    },
+    "33000253": {
+      "avg_delay_min": 0.22,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000571": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000121": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000154": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000942": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000626": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000759": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000967": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000639": {
+      "avg_delay_min": 0.29,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000758": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000650": {
+      "avg_delay_min": 0.33,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000295": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000825": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 9
+    },
+    "33000906": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000586": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000156": {
+      "avg_delay_min": 0.12,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000312": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000900": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000753": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 8
+    },
+    "33000248": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000671": {
+      "avg_delay_min": 0.2,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000675": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000112": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000589": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000986": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000684": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 6
+    },
+    "33000148": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 4
+    },
+    "33000982": {
+      "avg_delay_min": 1.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000552": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 7
+    },
+    "33000673": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000985": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 1
+    },
+    "33000681": {
+      "avg_delay_min": null,
+      "num_departures": 10,
+      "num_with_realtime": 0
+    },
+    "33000842": {
+      "avg_delay_min": 0.0,
+      "num_departures": 10,
+      "num_with_realtime": 3
+    },
+    "33000278": {
+      "avg_delay_min": 0.9,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    },
+    "33000722": null,
+    "33000084": {
+      "avg_delay_min": 0.1,
+      "num_departures": 10,
+      "num_with_realtime": 10
+    }
+  }
+}

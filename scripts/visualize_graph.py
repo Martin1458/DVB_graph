@@ -84,12 +84,27 @@ def geo_to_canvas(lat, lon, all_nodes):
     )
 
 
-def inject_toggle(html_path, geo_positions):
-    """Post-process pyvis HTML to add a geo/physics toggle button."""
+def load_delays():
+    """Load delays.json if present. Returns dict of numeric_id → avg_delay_min (or None)."""
+    path = os.path.join(DATA_DIR, "delays.json")
+    if not os.path.exists(path):
+        return None, None
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    delays = {nid: (v["avg_delay_min"] if v else None) for nid, v in data["stations"].items()}
+    return delays, data.get("fetched_at", "")
+
+
+def inject_toggle(html_path, geo_positions, delays, fetched_at):
+    """Post-process pyvis HTML to add layout/delay toggle buttons."""
     with open(html_path, encoding="utf-8") as f:
         html = f.read()
 
     geo_js = json.dumps(geo_positions)
+    delay_js = json.dumps(delays) if delays else "null"
+    fetched_label = f"Delays as of {fetched_at[:16].replace('T', ' ')} UTC" if fetched_at else "No delay data"
+
+    has_delay = "true" if delays else "false"
 
     toggle_css = """
     <style>
@@ -99,8 +114,11 @@ def inject_toggle(html_path, geo_positions):
         right: 12px;
         z-index: 1000;
         display: flex;
+        flex-direction: column;
+        align-items: flex-end;
         gap: 8px;
       }
+      #controls .btn-row { display: flex; gap: 8px; }
       #controls button {
         padding: 8px 16px;
         border: none;
@@ -112,34 +130,99 @@ def inject_toggle(html_path, geo_positions):
         color: #aaa;
         transition: background 0.2s, color 0.2s;
       }
-      #controls button.active {
-        background: #E8342A;
-        color: white;
+      #controls button.active { background: #E8342A; color: white; }
+      #controls button:disabled { opacity: 0.35; cursor: default; }
+      #delay-label {
+        font-size: 11px;
+        color: #888;
+        font-family: sans-serif;
+      }
+      #delay-legend {
+        display: none;
+        gap: 6px;
+        align-items: center;
+        font-size: 11px;
+        color: #ccc;
+        font-family: sans-serif;
+      }
+      .swatch {
+        width: 12px; height: 12px;
+        border-radius: 50%;
+        display: inline-block;
       }
     </style>
     """
 
-    toggle_html = """
+    delay_legend = f"""
+    <span id="delay-label">{fetched_label}</span>
+    <div id="delay-legend">
+      <span class="swatch" style="background:#555"></span>no data&nbsp;
+      <span class="swatch" style="background:#27ae60"></span>on time&nbsp;
+      <span class="swatch" style="background:#f39c12"></span>~3 min&nbsp;
+      <span class="swatch" style="background:#e74c3c"></span>5+ min
+    </div>
+    """
+
+    delay_btn = (
+        'onclick="setColor(\'delay\')"'
+        if delays else
+        'disabled title="Run fetch_delays.py first"'
+    )
+    toggle_html = f"""
     <div id="controls">
-      <button id="btnGeo" class="active" onclick="setMode('geo')">Map layout</button>
-      <button id="btnPhysics" onclick="setMode('physics')">Physics</button>
+      <div class="btn-row">
+        <button id="btnGeo" class="active" onclick="setLayout('geo')">Map layout</button>
+        <button id="btnPhysics" onclick="setLayout('physics')">Physics</button>
+      </div>
+      <div class="btn-row">
+        <button id="btnLines" class="active" onclick="setColor('lines')">Line colors</button>
+        <button id="btnDelay" {delay_btn}>Delay</button>
+      </div>
+      {delay_legend}
     </div>
     """
 
     toggle_js = f"""
     <script>
       var geoPositions = {geo_js};
-      var currentMode = 'geo';
+      var delayData = {delay_js};
+      var hasDelay = {has_delay};
+      var nodeOrigColors = {{}};
 
-      function setMode(mode) {{
-        currentMode = mode;
-        document.getElementById('btnGeo').className = mode === 'geo' ? 'active' : '';
+      // Store original node colors after network is ready
+      setTimeout(function() {{
+        network.body.data.nodes.get().forEach(function(n) {{
+          nodeOrigColors[n.id] = n.color;
+        }});
+      }}, 500);
+
+      function delayColor(minutes) {{
+        if (minutes === null || minutes === undefined) return '#555555';
+        if (minutes <= 0.5) return '#27ae60';
+        if (minutes >= 5)   return '#e74c3c';
+        // interpolate green → yellow → red
+        var t = minutes / 5;
+        if (t < 0.5) {{
+          var r = Math.round(39  + (243 - 39)  * (t * 2));
+          var g = Math.round(174 + (156 - 174) * (t * 2));
+          var b = Math.round(96  + (18  - 96)  * (t * 2));
+        }} else {{
+          var t2 = (t - 0.5) * 2;
+          var r = Math.round(243 + (231 - 243) * t2);
+          var g = Math.round(156 + (76  - 156) * t2);
+          var b = Math.round(18  + (60  - 18)  * t2);
+        }}
+        return 'rgb(' + r + ',' + g + ',' + b + ')';
+      }}
+
+      function setLayout(mode) {{
+        document.getElementById('btnGeo').className    = mode === 'geo'     ? 'active' : '';
         document.getElementById('btnPhysics').className = mode === 'physics' ? 'active' : '';
 
         if (mode === 'geo') {{
           network.setOptions({{ physics: {{ enabled: false }} }});
           var updates = Object.keys(geoPositions).map(function(id) {{
-            return {{ id: id, x: geoPositions[id].x, y: geoPositions[id].y, fixed: false, physics: false }};
+            return {{ id: id, x: geoPositions[id].x, y: geoPositions[id].y, physics: false }};
           }});
           network.body.data.nodes.update(updates);
         }} else {{
@@ -152,6 +235,22 @@ def inject_toggle(html_path, geo_positions):
             barnesHut: {{ springLength: 60, springConstant: 0.02, damping: 0.2 }}
           }} }});
         }}
+      }}
+
+      function setColor(mode) {{
+        document.getElementById('btnLines').className = mode === 'lines' ? 'active' : '';
+        document.getElementById('btnDelay').className = mode === 'delay' ? 'active' : '';
+        document.getElementById('delay-legend').style.display = mode === 'delay' ? 'flex' : 'none';
+
+        var updates = network.body.data.nodes.get().map(function(n) {{
+          if (mode === 'delay' && hasDelay) {{
+            var d = delayData[n.id];
+            return {{ id: n.id, color: delayColor(d) }};
+          }} else {{
+            return {{ id: n.id, color: nodeOrigColors[n.id] || n.color }};
+          }}
+        }});
+        network.body.data.nodes.update(updates);
       }}
     </script>
     """
@@ -242,7 +341,8 @@ def build_pyvis(graph_data, output_path):
     """)
 
     net.write_html(output_path)
-    inject_toggle(output_path, geo_positions)
+    delays, fetched_at = load_delays()
+    inject_toggle(output_path, geo_positions, delays, fetched_at)
     print(f"Saved visualization to {output_path}")
 
 
