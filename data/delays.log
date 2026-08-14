@@ -1,0 +1,40 @@
+Fetching delays for 621 Dresden stations with 20 workers...
+  50/621
+  100/621
+  150/621
+  200/621
+  250/621
+  300/621
+  350/621
+  400/621
+  450/621
+  500/621
+  550/621
+  600/621
+  621/621
+
+Saved 2634 rows to /Users/martin/local_projects/DVB_graph/scripts/../data/delays.db and snapshot to /Users/martin/local_projects/DVB_graph/scripts/../data/delays.json
+  Timestamp: 2026-08-14T17:50:14Z
+  Stations with real-time data: 602/621
+  Stations with >1 min avg delay: 93
+  Cancelled departures: 17
+Fetching delays for 621 Dresden stations with 20 workers...
+  50/621
+  100/621
+  150/621
+  200/621
+  250/621
+  300/621
+  350/621
+  400/621
+  450/621
+  500/621
+  550/621
+  600/621
+  621/621
+
+Saved 2616 rows to /Users/martin/local_projects/DVB_graph/scripts/../data/delays.db and snapshot to /Users/martin/local_projects/DVB_graph/scripts/../data/delays.json
+  Timestamp: 2026-08-14T17:55:13Z
+  Stations with real-time data: 602/621
+  Stations with >1 min avg delay: 100
+  Cancelled departures: 14

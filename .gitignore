@@ -1,0 +1,6 @@
+venv/
+data/*.lock
+data/archive/
+data/delays.db
+data/delays.json
+__pycache__/

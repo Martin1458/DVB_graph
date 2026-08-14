@@ -30,9 +30,10 @@ Takes about 2–3 minutes.
 python3 scripts/fetch_delays.py
 ```
 
-Hits the departure monitor API for all 621 Dresden tram/bus stations concurrently (~15 seconds), computes the average delay at each station right now, and:
-- Appends a row to `data/delays.db` (SQLite) — timestamp + one column per station
-- Overwrites `data/delays.json` with the latest snapshot (used by the visualization)
+Hits the departure monitor API for all 621 Dresden tram/bus stations concurrently (~15 seconds), and:
+- Appends rows to `data/delays.db` (SQLite, table `observations`) — one row per station **per line per direction**, per run (~2,500 rows/run). Each row has `avg_delay_min`, `num_departures`, `num_with_realtime`, `num_cancelled`, and `occupancy_counts` (JSON, e.g. `{"ManySeats": 3, "Unknown": 1}`).
+- Overwrites `data/delays.json` with the latest snapshot, collapsed to one entry per station (used by the visualization)
+- At the first run of a new calendar month, rotates the previous month's `delays.db` into `data/archive/delays-YYYY-MM.db.gz` (gzip, ~5.5x smaller) and starts a fresh `delays.db` — see [Archiving](#archiving) below.
 
 ### Generate the visualization
 
@@ -62,47 +63,124 @@ python3 scripts/build_graph.py      # rebuild graph from existing stations.json
 | `data/stations.json` | All VVO stops with coordinates and line info |
 | `data/graph.json` | Graph nodes and edges (station pairs + which lines connect them) |
 | `data/graph.gexf` | Same graph in Gephi format |
-| `data/delays.json` | Latest delay snapshot (overwritten each run) |
-| `data/delays.db` | SQLite database — one row per fetch run, one column per station |
+| `data/delays.json` | Latest delay snapshot, per station (overwritten each run) |
+| `data/delays.db` | SQLite database, table `observations` — current month's full history, one row per station+line+direction per fetch run |
+| `data/archive/delays-YYYY-MM.db.gz` | Previous months' `delays.db`, rotated out and gzipped — see [Archiving](#archiving) |
 | `data/graph.html` | Interactive visualization |
 
-## Scheduling on Raspberry Pi (collect delays every 30 minutes)
+## Scheduling on macOS (collect delays every 5 minutes)
 
-**1. Install dependencies**
+Runs via `launchd` (not cron — macOS's native scheduler, survives reboots and login without extra setup). Triggers every 5 minutes, on the `:00/:05/:10/.../:55` marks.
 
-```bash
-pip3 install -r requirements.txt
-```
-
-**2. Find your Python path**
+**1. Create a virtualenv and install dependencies**
 
 ```bash
-which python3
+python3 -m venv venv
+./venv/bin/pip install -r requirements.txt
 ```
 
-**3. Add a crontab entry**
+**2. Create the LaunchAgent**
+
+Save as `~/Library/LaunchAgents/com.dvbgraph.fetchdelays.plist`, replacing `/Users/martin/local_projects/DVB_graph` with your actual project path:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.dvbgraph.fetchdelays</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/lockf</string>
+        <string>-t</string>
+        <string>0</string>
+        <string>/Users/martin/local_projects/DVB_graph/data/fetch_delays.lock</string>
+        <string>/Users/martin/local_projects/DVB_graph/venv/bin/python3</string>
+        <string>/Users/martin/local_projects/DVB_graph/scripts/fetch_delays.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/martin/local_projects/DVB_graph</string>
+
+    <key>StartCalendarInterval</key>
+    <array>
+        <dict><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Minute</key><integer>5</integer></dict>
+        <dict><key>Minute</key><integer>10</integer></dict>
+        <dict><key>Minute</key><integer>15</integer></dict>
+        <dict><key>Minute</key><integer>20</integer></dict>
+        <dict><key>Minute</key><integer>25</integer></dict>
+        <dict><key>Minute</key><integer>30</integer></dict>
+        <dict><key>Minute</key><integer>35</integer></dict>
+        <dict><key>Minute</key><integer>40</integer></dict>
+        <dict><key>Minute</key><integer>45</integer></dict>
+        <dict><key>Minute</key><integer>50</integer></dict>
+        <dict><key>Minute</key><integer>55</integer></dict>
+    </array>
+
+    <key>StandardOutPath</key>
+    <string>/Users/martin/local_projects/DVB_graph/data/delays.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/martin/local_projects/DVB_graph/data/delays.log</string>
+
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
+```
+
+`lockf` (built into macOS) plays the same role as `flock -n` did on the Pi: if a run is still in progress when the next one is due, the second run is skipped instead of writing to the SQLite database concurrently.
+
+**3. Load it**
 
 ```bash
-crontab -e
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.dvbgraph.fetchdelays.plist
 ```
-
-Add this line (adjust paths to match where you cloned the project):
-
-```
-*/30 * * * * flock -n /tmp/fetch_delays.lock /usr/bin/python3 /home/pi/DVB_graph/scripts/fetch_delays.py >> /home/pi/DVB_graph/data/delays.log 2>&1
-```
-
-`flock -n` ensures that if a run is still in progress when the next one is due, the second run is skipped rather than running in parallel (which would cause concurrent writes to the SQLite database).
 
 **4. Check it's working**
 
 ```bash
-# Confirm cron is firing
-grep CRON /var/log/syslog | tail -20
+# Confirm it's loaded
+launchctl print gui/$(id -u)/com.dvbgraph.fetchdelays
+
+# Trigger a run immediately (don't wait for the next 5-minute mark)
+launchctl kickstart gui/$(id -u)/com.dvbgraph.fetchdelays
 
 # Watch script output
-tail -f /home/pi/DVB_graph/data/delays.log
+tail -f data/delays.log
 ```
+
+**Useful commands**
+
+```bash
+launchctl bootout gui/$(id -u)/com.dvbgraph.fetchdelays   # stop and unload
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.dvbgraph.fetchdelays.plist   # reload after editing the plist
+```
+
+The Mac mini needs to be powered on and logged in (or at least not fully shut down) for the job to fire — `launchd` will run missed jobs shortly after wake if the machine was asleep, but not if it was off.
+
+**Data volume:** at 5-minute intervals, `delays.db` grows by roughly 100 MB/day (~3 GB/month) before gzip. See [Archiving](#archiving) for how that gets kept in check.
+
+## Archiving
+
+`fetch_delays.py` rotates `data/delays.db` automatically: the first run of a new calendar month gzips the just-finished month into `data/archive/delays-YYYY-MM.db.gz` (~5.5x smaller — a ~3 GB month compresses to roughly 500 MB) and starts a fresh, empty `delays.db`. No manual step needed for this part — it just happens on schedule.
+
+What's manual is getting those chunks off the Mac mini. Whenever it's convenient:
+
+```bash
+# Copy archived chunks to a NAS share (adjust the destination to yours)
+rsync -av data/archive/ /Volumes/YourNAS/DVB_graph_archive/
+
+# Then, once you've confirmed they copied successfully, free up local space:
+rm data/archive/delays-*.db.gz
+```
+
+Each chunk is a self-contained gzipped SQLite file — restore one with `gunzip -k data/archive/delays-2026-08.db.gz` and open it directly with `sqlite3` or any SQLite tool, same `observations` table schema as the live `delays.db`.
+
+`data/archive/` is gitignored (large binary data, not meant to live in the repo).
 
 ## Data sources
 
